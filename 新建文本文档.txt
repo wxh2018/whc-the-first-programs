@@ -1,0 +1,25 @@
+1.判断一个数是否是质数。
+num1=100
+while 100<= 999:
+ if num1%10**3+(num1//100**3)+(num1//10%3**3):
+   print(num1)
+   print(num1)
+ num1+=1
+2.100以内所有质数的和输出所有质数。
+3.输出1000以内所有的完数。
+4.用户登录默认用户默认用户名为ADMIN，密码为admin123只有三次登录机会。
+
+  num=0
+while True:   
+name=input()   
+mi=eval(input())   
+if name=="Kate" and mi==666666:     
+print("登录成功！")     
+break    else:      
+num+=1       
+   if num==3:         
+   print("3次用户名或者密码均有误！退出程序。")     
+ break
+
+
+
